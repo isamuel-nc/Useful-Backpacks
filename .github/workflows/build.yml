@@ -25,6 +25,9 @@ jobs:
         run: chmod +x ./gradlew
       - name: build
         run: ./gradlew assemble --no-daemon -Dorg.gradle.jvmargs=-Xmx6G
+      - name: List build directory
+        run: ls 
+
       - name: Upload JAR
         uses: actions/upload-artifact@v2
         with:

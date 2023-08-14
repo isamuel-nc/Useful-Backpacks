@@ -3,10 +3,10 @@
 	"category": "misc",
 	"key": {
 		"A": {
-			"tag": "usefulbackpacks:ingot/nether_brick"
+			"item": "minecraft:emerald"
 		},
 		"E": {
-			"tag": "usefulbackpacks:end_stone"
+			"item": "minecraft:redstone_torch"
 		},
 		"I": {
 			"tag": "usefulbackpacks:ingot/iron"
